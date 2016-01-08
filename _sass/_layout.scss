@@ -1,0 +1,289 @@
+/**
+ * Site footer
+ */
+.site-footer {
+    width: 100%;
+    height: 10%;
+    border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit / 2 0 0 0;
+    clear: top;
+    position: fixed;
+    z-index: 999;
+    background-color: #FFFFFF;
+}
+
+.footer-heading {
+    font-size: 18px;
+    margin-bottom: $spacing-unit / 2;
+}
+
+.contact-list,
+.social-media-list {
+    list-style: none;
+    margin-left: 0;
+}
+
+.footer-col-wrapper {
+    font-size: 15px;
+    color: $grey-color;
+    @extend %clearfix;
+}
+
+.footer-col {
+    float: left;
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+}
+
+.footer-col-1 {
+    width: -webkit-calc(40% - (#{$spacing-unit} / 2));
+    width:         calc(40% - (#{$spacing-unit} / 2));
+    text-align: left;
+    padding: 0px 0px 5px 20px;
+    height: 10%;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.footer-col-2 {
+    width: -webkit-calc(40% - (#{$spacing-unit} / 2));
+    width:         calc(40% - (#{$spacing-unit} / 2));
+    text-align: right;
+    padding: 5px 0px 5px 20px;
+    height: 10%;
+    display: inline-block;
+}
+
+.footer-col-3 {
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-laptop) {
+    .footer-col-1,
+    .footer-col-2 {
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
+    }
+
+    .footer-col-3 {
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+@include media-query($on-palm) {
+    .footer-col {
+        float: none;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+#footer-name {
+    line-height: 2;
+    font-size: 10px;
+}
+
+
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: 0;
+    height: 90%;
+    position: relative;
+    margin: 0px;
+}
+
+.page-heading {
+    font-size: 42px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+#post-page{
+    padding: 0% 5% 0% 5%;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+
+#about-sub {
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+}
+
+.home {
+    padding: 5% 20% 0 5%;
+}
+
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+    padding: 5% 20% 0% 5%;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+    padding: 0 20% 15% 5%;
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+}
+
+/**
+ * Other Things
+ */
+
+.left-sidebar {
+    width: 40%;
+    height: 90%;
+    position: fixed;
+    background-image: url("/images/new_wallpaper-01-02.png");
+    margin-top: 0px;
+    padding: 0px;
+    float: left;
+}
+
+#about {
+    margin: 15%;
+    padding: 30px 30px 30px;
+    background: white;
+    border-radius: 50%;
+    width: 60%;
+    position: absolute;
+    display: inline-block;
+}
+
+.right {
+    width: 60%;
+    height: 90%;
+    margin: 0px;
+    float: right;
+    position: relative;
+}
+
+#arrow-large {
+    font-size: 100px;
+    text-align: center;
+    line-height: -1;
+    margin: -30px 0px 0px 0px;
+}
+
+#arrow-small {
+    display: none;
+    text-align: center;
+}
+
+#social-media-small {
+    display: none;
+}
+
+@include media-query($on-palm) {
+    .left-sidebar {
+        width: 100%;
+        height: 50%;
+        position: relative;
+        background-image: url("/images/new_wallpaper-01-02 copy.png");
+    }
+    #arrow-large {
+        display: none;
+    }
+    #arrow-small {
+        display: block;
+        font-size: 75px;
+        text-align: center;
+        margin: -25px 0px 0px 0px;
+        font-weight: bold;
+    }
+    #ammy-cartoon{
+        width: 131px;
+        height: 110px;
+    }
+    #social-media-large {
+        display: none;
+    }
+    #social-media-small {
+        display: block;
+    }
+    #about {
+        margin-left: 10%; 
+    }
+    .right {
+        width: 100%;
+        position: relative;
+    }
+    .post-meta {
+        font-size: $small-font-size;
+        color: $grey-color;
+    }
+    #post-page{
+        padding: 0px 25px 0px 30px;
+    }
+    .home {
+        padding: 20px 20px 0px 20px;
+    }
+
+    .post-title {
+        font-size: 26px;
+        padding: 20px 25px 0px 30px;
+    }
+    .page-heading{
+        font-size: 26px;
+    }
+    .post-content {
+        margin-bottom: $spacing-unit;
+        padding-bottom: 15%;
+    }
+
+}
