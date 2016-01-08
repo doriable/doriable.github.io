@@ -8,7 +8,7 @@ A quick introduction:
 
 I'm really excited to start this blog, for a few reasons as you'll see, but I wanted to first preface this with saying: **don't worry, this isn't just a "New Year's Resolution Blog (TM)"**.
 
-As some of you may know, I am currently in San Francisco, officially. I flew here on December 31, so I welcomed 2016 in my new, partially set up apartment. I moved out here for the time-being to pursue a [Software Enginner Fellowship at Hackbright](https://hackbrightacademy.com/). This is a pretty interesting time for me, in the last three days I...
+As some of you may know, I am currently in San Francisco, officially. I flew here on December 31, so I welcomed 2016 in my new, partially set up apartment. I moved out here for the time-being to pursue a [Software Engineer Fellowship at Hackbright](https://hackbrightacademy.com/). This is a pretty interesting time for me, in the last three days I...
 
 - ...got a local cellphone number
 - ...visited my favorite tea place
