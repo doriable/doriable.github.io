@@ -232,7 +232,7 @@
 @include media-query($on-palm) {
     .left-sidebar {
         width: 100%;
-        height: 50%;
+        height: 100%;
         position: relative;
         background-image: url("/images/new_wallpaper-01-02 copy.png");
     }
