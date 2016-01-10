@@ -229,6 +229,10 @@
     display: none;
 }
 
+.disqus-comments {
+    margin: 0 10% 0 5%;
+}
+
 @include media-query($on-palm) {
     .left-sidebar {
         width: 100%;
