@@ -154,7 +154,7 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
-    padding: 0 20% 15% 5%;
+    padding: 0 20% 10% 5%;
 
     h2 {
         font-size: 32px;
@@ -230,7 +230,7 @@
 }
 
 .disqus-comments {
-    margin: 0 10% 0 5%;
+    margin: 0 10% 10% 5%;
 }
 
 @include media-query($on-palm) {
@@ -284,10 +284,6 @@
     }
     .page-heading{
         font-size: 26px;
-    }
-    .post-content {
-        margin-bottom: $spacing-unit;
-        padding-bottom: 15%;
     }
 
 }
