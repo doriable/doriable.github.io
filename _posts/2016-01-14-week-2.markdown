@@ -8,6 +8,7 @@ categories: life update, work, Hackbright
 Before digging into week 2 of Hackbright, I want to first observe a short moment of silence to honor the <a href="http://www.cnn.com/2016/01/14/entertainment/obit-alan-rickman/" target="_blank">greatest head of house Slytherin has ever seen</a>.
 
 We covered a lot of ground this week at Hackbright, including the following:
+
 - Collections: lists, tuples, sets, dictionaries
 - Markov chains
 - Twitter API
@@ -40,6 +41,7 @@ I think this last piece is straightforward and very much conventional wisdom, bu
 As mentioned earlier, the picture I've painted is fairly rudimentary, which makes sense since it is only week 2. I just wanted to get some of my thoughts and goals on "paper" and reflect on them as we continue through our journey at Hackbright!
 
 Lastly, I've gathered feedback from the first two posts and made some quick updates on the blog itself:
+
 - I've put in a return home button after you get to a post — I realized that is very poor planning on my part!
 - External links now open up to new pages
 
