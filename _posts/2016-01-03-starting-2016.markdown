@@ -9,7 +9,7 @@ A quick introduction:
 
 I'm really excited to start this blog, for a few reasons as you'll see, but I wanted to first preface this with saying: **don't worry, this isn't just a "New Year's Resolution Blog (TM)"**.
 
-As some of you may know, I am currently in San Francisco, officially. I flew here on December 31, so I welcomed 2016 in my new, partially set up apartment. I moved out here for the time-being to pursue a [Software Engineer Fellowship at Hackbright](https://hackbrightacademy.com/). This is a pretty interesting time for me, in the last three days I...
+As some of you may know, I am currently in San Francisco, officially. I flew here on December 31, so I welcomed 2016 in my new, partially set up apartment. I moved out here for the time-being to pursue a <a href="https://hackbrightacademy.com/" target="_blank">Software Engineer Fellowship at Hackbright</a>. This is a pretty interesting time for me, in the last three days I...
 
 - ...got a local cellphone number
 - ...visited my favorite tea place
@@ -21,7 +21,7 @@ As some of you may know, I am currently in San Francisco, officially. I flew her
 
 So a pretty archetypal San Francisco/overall American experience. Amidst all of the frenzy of coming out here, I feel like I've forgotten to thank the people around me who have supported me in this exciting new adventure (and by "feel like I've forgotten", I really mean "I totally ignored all my wonderful family and friends"). So, this post is, first and foremost, dedicated to them, the world's most fantastic people — I couldn't achieve anything without them.
 
-Secondly, I want to say how excited I am for this fellowship (yes, this is turning out somewhat like an Oscar speech — *"first, I'd like to thank my family and friends..."*). Seriously though, I am very much looking forward to the idea of immersing myself completely in coding and [working towards becoming a software engineer](https://hackbrightacademy.com/). I have no idea what it's going to be exactly, but I do know that I'll be learning alongside some brilliant ladies and we're going to build cool stuff together — that alone is enough to get me all fired up and ready to go!
+Secondly, I want to say how excited I am for this fellowship (yes, this is turning out somewhat like an Oscar speech — *"first, I'd like to thank my family and friends..."*). Seriously though, I am very much looking forward to the idea of immersing myself completely in coding and working towards becoming a software engineer. I have no idea what it's going to be exactly, but I do know that I'll be learning alongside some brilliant ladies and we're going to build cool stuff together — that alone is enough to get me all fired up and ready to go!
 
 Lastly, I wanted to talk a little bit about the purpose of this blog and some of the things I hope to write about (a "content strategy" if you will, or a.k.a "why you should care/read"). The topics I'm hoping to cover here will be roughly distributed as follows:
 
