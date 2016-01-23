@@ -13,7 +13,7 @@ Week 3 down and <a href="https://en.wiktionary.org/wiki/Wikisaurus:wow" target="
 - Boostrap (brought to you by designers who understood prime factorization)
 - Testing software
 
-Yeah, that's a lot. Also, we met our mentors this week and now I have three wonderful individuals I'm super excited to work with! We had Chinese food on the night of the Mentor Mixer and theyleft me with some excellent fortune cookie messages:
+Yeah, that's a lot. Also, we met our mentors this week and now I have three wonderful individuals I'm super excited to work with! We had Chinese food on the night of the Mentor Mixer and they left me with some excellent fortune cookie messages:
 
 <img src="/images/fortune_cookie.jpg" style="max-width:65%;">
 
