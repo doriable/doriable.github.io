@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Hackbright Week 4"
+date:   2016-01-30 1:21:00 -0800
+comments: true
+categories: life update, work, Hackbright, tech, learning code
+---
+As we cross the Week 4 finish line at Hackbright, we are also nearing the end of our metaphorical "80 days around the world of web development" (if only we actually got 80 days before we started our projects!).
+
+This week was super exciting, although the contrast of SQL (which is awesome!) versus Javascript is a little bit of an emotional roller coaster for me. I have a working theory that Javascript is so widely-used because it popularized the mystique of programming and developers are trolls, thus wanting the general public to continue thinking that coding is "some magical shit that happens in a computer" without rhyme or reason. It is a wolf in sheep's clothing — "I borrowed the appearance of other lower-level languages then decided to make up my own rules". However, I will give Javascript credit on one thing: it gives the programmer that little tremor of thrill when the semicolons are put in, very much like pulling the penny slots at Niagara falls (*"cherry... cherry... aw shucks, so close... again!"*). Also, Javascript provides a tiny creative space for programmers to be clever, "to express and distinguish themselves", which I find really interesting (but mostly frustrating). And I admit I really enjoy the little quirks Javascript programmers write to make things work a certain way (e.g. the "+function() {}();" expression we talked about to avoid polluting the global namespace, which I found super fun). They are like little mind games the programmers are playing against Javascript. Clearly, my relationship status with Javascript is currently "it's complicated".
+
+On the flip side, SQL and databases are fantastic. While we are making short, simple queries in lab, it may not seem immediately obvious, but SQL is very powerful in helping us provide key insights to a user. Without it, the data would be a giant cloud out in the ether of our databases but through SQL, we can tease out information that is valuable to the user and elevate it through the rest of our app. In fact, when users interact with it, it doesn't even feel like "data". When we find a recipe in a cooking app or *play a song from a playlist*, data about a recipe or a song is being processed then packaged and pushed forward for us to use. Keeping all of that data organized in databases and formulating ways to draw it out is very interesting. Also, as we are settle down on our project topics, designing how the data will be stored in our databases is super fun. I love the process of backtracking, asking myself:
+
+- "What are the features the user of this data (in this case, me, since we are working on our projects individually) trying to build?"
+- "What types of information help support these features (e.g. are they recipes? global food waste statistics? songs?) and how do these pieces of data relate to each other?"
+- "What is unique about these pieces of data versus what intersects? How should I put them in the database in a way where I can get what I want without being verbose or repeating myself?"
+- "Given a chosen data layout, is it clear what I should be saying to my database through SQL to get the information that will help support the features of the application?"
+
+As I worked through the first iteration of the data model for my project, I used the last question as a way of checking whether I was going down the right path with my work. If it wasn't intuitive how I would extract the information I needed, then likely I needed to think differently about my tables.
+
+Finally, I wanted to quickly talk about some changes that I will be making to the structure of my blog posts over the course of the next few weeks. As we start projects, the posts will shift focus to tracking my project and I will likely use it in conjunction with our daily scrum meetings. For readers not fully familiar with Hackbright, our projects will be individual and span weeks 6 through 10 of the program, so these upcoming weeks are very exciting! Expect the changes to take affect soon, probably over the course of Week 5 as I start to experiment with stuff for my project.
+
+As usual, thanks for reading and supporting me through my journey at Hackbright! &#129412;
+
+
