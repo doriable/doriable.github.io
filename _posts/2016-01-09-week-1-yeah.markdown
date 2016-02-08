@@ -3,7 +3,7 @@ layout: post
 title:  "Hackbright Week 1"
 date:   2016-01-10 23:30:00 -0800
 comments: true
-categories: life update, learning code, tech, Hackbright
+categories: life-update learning-code tech Hackbright
 ---
 Week 1 of Hackbright just wrapped up!
 

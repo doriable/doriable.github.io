@@ -3,7 +3,7 @@ layout: post
 title:  "Hackbright Week 4"
 date:   2016-01-30 1:21:00 -0800
 comments: true
-categories: life update, work, Hackbright, tech, learning code
+categories: life-update work Hackbright tech learning-code
 ---
 As we cross the Week 4 finish line at Hackbright, we are also nearing the end of our metaphorical "80 days around the world of web development" (if only we actually got 80 days before we started our projects!).
 
