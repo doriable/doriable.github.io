@@ -3,7 +3,7 @@ layout: post
 title:  "Hackbright Week 3"
 date:   2016-01-23 2:21:00 -0800
 comments: true
-categories: life-update work Hackbright learning-code
+categories: life-update Hackbright learning-code
 ---
 Week 3 down and <a href="https://en.wiktionary.org/wiki/Wikisaurus:wow" target="blank">wow</a> it was a crazy week! I'm fairly certain my brain is just liquid sloshing around in my skull right now and I'm afraid to go to sleep in case it starts pouring out of my ears. This week, we covered an incredibly broad range of topics:
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Hackbright Week 2"
 date:   2016-01-17 10:00:00 -0800
 comments: true
-categories: life-update work Hackbright learning-code
+categories: life-update Hackbright learning-code
 ---
 Before digging into week 2 of Hackbright, I want to first observe a short moment of silence to honor the <a href="http://www.cnn.com/2016/01/14/entertainment/obit-alan-rickman/" target="_blank">greatest head of house Slytherin has ever seen</a>.
 

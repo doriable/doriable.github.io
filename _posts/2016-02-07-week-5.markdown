@@ -3,7 +3,7 @@ layout: post
 title:  "Hackbright Week 5"
 date:   2016-02-07 23:21:00 -0800
 comments: true
-categories: life-update work Hackbright tech learning-code project
+categories: life-update Hackbright learning-code project
 ---
 Happy Lunar New Year! &#128053; Even though I was unable to celebrate it with my family in-person, I had the chance to Skype with them and wish them a happy new year.
 
