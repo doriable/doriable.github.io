@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "Hackbright Week 5"
+date:   2016-02-07 23:21:00 -0800
+comments: true
+categories: life-update work Hackbright tech learning-code project
+---
+Happy Lunar New Year! &#128053; Even though I was unable to celebrate it with my family in-person, I had the chance to Skype with them and wish them a happy new year.
+
+It's the **end of week 5**! Apologies on the late post this week, it's been extremely hectic. We are about to start the second half of Hackbright: computer science topics and our personal projects, and I am both excited and anxious.
+
+This week for lab we worked on a 4-day long movie rating Flask app that was great simulation for working on our projects. It was awesome finally being able to see everything we've been working on come together and also incorporate a shiny new machine-learning piece (whoot, Pearson correlations!). I really enjoyed working through the entire process with my pair, including working through the data model, setting up the routes, and putting in the features outlined in our lab assignment (also really acknowledging how long each step takes!).
+
+During the lectures, we covered the following topics:
+
+- SQLAlchemy — SQL + Python = gold!
+- Python Datetime library — sometimes time  zones and Daylight Savings can be confusing, but it's almost always after 5pm somewhere, potentially twice in one day! &#x1F37B;
+- Web patterns — how to think about and structure routes... remember, everything on the internet is a form!
+- Ratings algorithm — predicting movie ratings by finding movie buddies for each user
+- Data modeling
+
+For my project, I've nitpicked my data model several times now, as well as gone over it with my advisor, mentors, peers, family members and non-tech friends, and I think I've finally landed on something that fulfills the needs of my project. In <a href="http://doriable.github.io/life-update/work/hackbright/tech/learning-code/2016/01/30/week-4.html" target="blank">my last post</a> I discussed how I found the data modeling process interesting, especially going back and asking myself if it "accurately represents the universe of my app". I definitely found myself in full Gollum-mode, debating every minutia of the model to myself.
+
+<iframe src="//giphy.com/embed/V4uGHRgz0zi6Y?html5=true" width="480" height="292" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/V4uGHRgz0zi6Y">via GIPHY</a></p>
+
+While I am skeptical that I've found the final-final version of things, I am comfortable enough with it that I can start working on coding the models on Monday. Talking it through with all the different people around me, including those who are not familiar with software development has been incredibly helpful. It was a great way for me to work on communicating my logic in a clear, thoughtful manner and it was rewarding when my friends and family back in Canada didn't think of me as a complete lunatic (although a few of them needed a lot of persuasion). It was also nice sharing these ideas with them because sometimes it's not always clear what software development actually entails for those outside of the industry. This weekend, some wonderful fellow cohort mates and I also met up to talk through our data models in preparation for Monday. It was a great way to get peer feedback on each of our thought processes and helped ensure that we weren't going into Week 6 empty-handed and confused. Also, since we'll be working individually on our projects from now until Week 10, it's good to show that even though we won't be pair programming, we're still there each other through this endeavour. To my hard-working, brilliant, tenacious cohort: let's lean on each other to get through our bad days and celebrate each of our victories together. We're all going to experience both over the course of the next few weeks, so let's support each other through this &#9786;
+
+Throughout this week, I have also planned out the wireframes and routes for my app. In the upcoming week, I can begin working through different pieces of my project as I figure out sockets and streaming. I will also be revamping my blog this week and using it to keep track of daily progress on my project. The new blog post format will be as follows:
+
+- Daily scrum meeting: what I did yesterday, what I'm doing today, what am I stuck on — a quick tagline to start out the post
+- Things I accomplished today
+- Things I struggled with today
+- Things I am still figuring out (read: sockets and streaming)
+- What I plan to do tomorrow (and did I stick with what I planned yesterday)
+
+Onwards and upwards to week 6! &#127880;
