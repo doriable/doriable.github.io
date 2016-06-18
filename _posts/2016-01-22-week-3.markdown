@@ -3,7 +3,7 @@ layout: post
 title:  "Hackbright Week 3"
 date:   2016-01-23 2:21:00 -0800
 comments: true
-categories: life-update Hackbright learning-code
+categories: hackbright
 ---
 Week 3 down and <a href="https://en.wiktionary.org/wiki/Wikisaurus:wow" target="blank">wow</a> it was a crazy week! I'm fairly certain my brain is just liquid sloshing around in my skull right now and I'm afraid to go to sleep in case it starts pouring out of my ears. This week, we covered an incredibly broad range of topics:
 
@@ -17,7 +17,7 @@ Yeah, that's a lot. Also, we met our mentors this week and now I have three wond
 
 <img src="/images/fortune_cookie.jpg" style="max-width:65%;">
 
-Now that I've gone through three weeks of Hackbright, I've settled into a pretty comfortable routine for myself. This includes some time each day either working on some basic coding challenges online (e.g. <a href="http://adventofcode.com/" target="_blank">Advent of Code</a>, <a href="https://github.com/karan/Projects" target="_blank">some puzzles I found on Github</a>, etc.) or learning something new about coding. So, this week I decided to try an experiment. I wanted to see how quickly it would take for me to adopt the basics of a new programming language. I mistakenly chose Go for this experiment. As a benchmark/metric, I decided to use the length of time it would take for me to learn enough to translate my Python solution to Go for the <a href="http://adventofcode.com/day/1" target="_blank">first Advent of Code challenge</a>. The answer is: too long, especially when the documentation is a bit difficult to navigate. 
+Now that I've gone through three weeks of Hackbright, I've settled into a pretty comfortable routine for myself. This includes some time each day either working on some basic coding challenges online (e.g. <a href="http://adventofcode.com/" target="_blank">Advent of Code</a>, <a href="https://github.com/karan/Projects" target="_blank">some puzzles I found on Github</a>, etc.) or learning something new about coding. So, this week I decided to try an experiment. I wanted to see how quickly it would take for me to adopt the basics of a new programming language. I mistakenly chose Go for this experiment. As a benchmark/metric, I decided to use the length of time it would take for me to learn enough to translate my Python solution to Go for the <a href="http://adventofcode.com/day/1" target="_blank">first Advent of Code challenge</a>. The answer is: too long, especially when the documentation is a bit difficult to navigate.
 
 I understand that what you are about to see is the programming equivalent of me going to Montreal and saying "poutine s'il vous plaît", but I was unreasonably ecstatic when the following Go code printed the same answer as my Python code:
 
@@ -29,10 +29,10 @@ import (
 )
 
 func main() {
-    //I know, it should iterate through an input file 
-    //and not just some huge string I copied in... 
+    //I know, it should iterate through an input file
+    //and not just some huge string I copied in...
     //like I said, poutine please.
-    input := "((((()..." 
+    input := "((((()..."
     floor := 0
     for _, char := range input {
         if string(char) == "(" {

@@ -3,12 +3,12 @@ layout: post
 title:  "Week 8: Projects Week 3"
 date:   2016-02-28 23:00:00 -0800
 comments: true
-categories: life-update Hackbright learning-code project
+categories: hackbright
 ---
 <!--Introduction-->
 This week felt slower and more frustrating than the other two weeks. Mostly because I felt like I invested a lot of time reading and going through documentation as I start hitting more complicated road blocks. Normally I would find this interesting and somewhat relaxing, but trying to go through large portions of complex materials quickly and efficiently in a limited amount of time was a little bit stressful. With that said, here are my stand-ups for Week 8:
 
-- **Monday**: Over the weekend, I did some refactoring and worked out some bugs with voting. The votes are now rendering properly. Today, I am finishing up votes and getting updates to write on both the admin and guest side when a vote goes through. Also, working on a bug around deleting jukeboxes and cleaning up data. No blockers. 
+- **Monday**: Over the weekend, I did some refactoring and worked out some bugs with voting. The votes are now rendering properly. Today, I am finishing up votes and getting updates to write on both the admin and guest side when a vote goes through. Also, working on a bug around deleting jukeboxes and cleaning up data. No blockers.
 - **Tuesday**: Yesterday, I got the votes to update (the vote count would change when a new vote came in). Today, I am getting the playlist to re-render when a new vote comes in. After that, I will work on setting up testing and also getting ready to work on the next feature – streaming audio. No blockers.
 - **Wednesday**: Yesterday, I got the playlists to re-render when a new vote came in. I also worked out some bugs around the sorting and re-rendering. In addition, I also met with a mentor and looked into ways of streaming the audio. Today, I plan on writing some tests and continue to learn more about streaming audio to the client. No blockers.
 - **Thursday**: Yesterday, I wrote some tests, which took longer than anticipated because of implementing testing for WebSockets. I figured it out by implementing AsyncHTTPTestCase through Tornado. I have some tests up and running, will continue to write them as the project moves along. Today, I will be looking further into the streaming and attempting to find a JavaScript solution in the frontend to play music. I've split this up into three steps: (1) review what types ways clients can play audio, (2) setting up a buffer on the server side, (3) bridging the two audio formats through sockets. No blockers.
@@ -24,5 +24,3 @@ This leads to my second learning for the week: testing. I've finally begun writi
 Overall it's been a slower week as I dig into the music streaming portion in depth. That was my main struggle this week, learning how to implement the streaming in a time crunch. It's frustrating that I can only go through so much information at a time. However, I think I now have some direction to take this, even though I ended up investing a large chunk of time Thursday and Friday learning by going through books, tutorials, and documentation. It was also uncomfortable not coding much on those days, mostly setting up the testing grounds for streaming, but it paves the way for progress in this upcoming week. I think that I am feeling the pressure as we head into Week 9, but the best way to deal with that is to keep busy and working through what needs to be done.
 
 So, with all of that said, onwards to Week 9! &#128640;
-
-

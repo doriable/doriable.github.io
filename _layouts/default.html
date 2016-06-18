@@ -5,30 +5,16 @@
 
   <body>
 
+    {% include header.html %}
+
     <div class="page-content">
-      <div class="left-sidebar">
-        <div id="about">
-          <h1 id="about-head">Hello, my name is Doria!</h1>
-          <p id="about-sub">
-            I'm a curious person learning to make cool stuff. 
-            <br>Here are some of my stories.
-          </p>
-          <p id="arrow-large">
-            &#8620;
-          </p>
-          <p id="arrow-small">
-            &#8623;
-          </p>
-        </div>
-      </div>
-      <div class="right">
+      <div class="wrapper">
         {{ content }}
       </div>
-
     </div>
-    
+
     {% include footer.html %}
-  
+
   </body>
 
 </html>

@@ -10,8 +10,9 @@ title: Doria Keung
 email: doria.keung@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This is Doria Keung's website and blog.
-baseurl: "" # the subpath of your site, e.g. /blog
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: ""
+pages: ["hackbright",
+       ]
 twitter_username: doriaKeung
 github_username:  doriable
 

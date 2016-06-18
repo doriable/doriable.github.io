@@ -3,12 +3,12 @@ layout: post
 title:  "Week 9: Projects Week 4"
 date:   2016-03-08 00:20:00 -0800
 comments: true
-categories: life-update Hackbright learning-code project
+categories: hackbright
 ---
 <!--Introduction-->
 The final full week of projects just flew past us and it's been very stressful and exciting all at once! For those who don't do well with suspense, I have figured out a way to stream music on the client-side (hurrah!). For those who have worked extensively with buffers, byte streams, Web Audio API and Python wave library are probably not all that impressed, but I am quite thrilled. There is now a bit of a wait time as the app processes the stream, but the client-side music playing is definitely worth it. Before I get into it, here are this week's scrums:
 
-- **Monday**: Over the weekend, I started server-side streaming. Today, I will work on fully implementing server-side streaming for the player. No blockers. 
+- **Monday**: Over the weekend, I started server-side streaming. Today, I will work on fully implementing server-side streaming for the player. No blockers.
 - **Tuesday**: Yesterday, I managed to get the play button to work and the server now plays music. Today, I will work on implementing the pause and skip buttons. No blockers.
 - **Wednesday**: Yesterday, I have the pause button up and running, and I worked on refactoring some of the code to make further implementation easier. Today, I am working on finishing up the skip button and then continuing onto client-side music streaming. No blockers.
 - **Thursday**: Yesterday, I finished up server-side streaming completely and began experimenting with client-side streaming in my playground. I reviewed sending raw binary data to the front-end. Today, I will continue with working on client-side streaming in my playground, looking into the wave library. No blockers.
@@ -20,4 +20,3 @@ The final full week of projects just flew past us and it's been very stressful a
 This week, I learned a lot about Python libraries, including the wave library (for reading/writing wave files). I also picked up a lot about the Web Audio API and some of the complexities around music streaming (although I've only scratched the surface). One of the most valuable ideas I've learned is working with what I have and accepting my constraints. I had four and a half weeks to build a functioning, demo-able crowdsourced music jukebox. After reviewing my work over the course of the last four weeks, I've identified several areas I want to continue working on in the upcoming weeks. The first being improving the performance of the client-side streaming. While music is currently playing in the browser, there is a wait time for the song to buffer. Improving this wait time and creating a smoother streaming process is one of my goals for the project in the upcoming week. A second area I want to work on is continuing to refactor my code — moving code blocks into functions and implementing classes for data structures. There are already several areas identified for rework in the upcoming weeks. These are improvements that can be made immediately, whereas the client-side streaming may span more time. Lastly, I want to take the learnings from the last four weeks, especially around architecture, and implement them in my upcoming projects so that I can work more efficiently and improve my skills as a software engineer. I've learned a lot from building "Office Jukebox" and I am excited to continue improving it while starting the next step of my Hackbright journey.
 
 On to Week 10 and career day! &#127880;
-
