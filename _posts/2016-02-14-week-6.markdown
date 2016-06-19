@@ -3,7 +3,7 @@ layout: post
 title:  "Week 6: Projects Week 1"
 date:   2016-02-14 14:00:00 -0800
 comments: true
-categories: life-update Hackbright learning-code project
+categories: hackbright
 ---
 <!--Introduction-->
 My original plan was to blog each day of this week, updating everyone on my project progress. As I started writing posts each day of this week, I found myself writing things like "and then I scribbled lines on some graph paper to make wireframes. And then I did it again. And again...". While each moment was a riveting learning experience in itself and I will look back fondly at my simple self in a few months time, the message really boiled down to "I did things that constituted working on my project". So instead, I decided to pull the scrum stand-ups from each day this week and highlight the main challenges and learning experiences. A wise Hack13right cohort mate said "it's important for a developer's blog to have a message for your readers, it's not just a glorified Github", and she's right. Here are my scrum stand-ups from week 1:
@@ -32,6 +32,3 @@ As for things I've struggled with this week, it's the idea of dealing with "unkn
 Lastly, some quick notes on the blog: if you are reading this from an iPhone 6 plus, no I have not fixed the footer issue. I will be looking into changing the layout soon, so these issues will hopefully be addressed with the full layout change.
 
 As usual, thanks for reading and yay, projects! &#10024;
-
-
-

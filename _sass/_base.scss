@@ -13,11 +13,8 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
-html {
-    height: 100%;
-}
 body {
-    font: $base-font-weight #{$base-font-size} $base-font-family;
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -26,7 +23,6 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
-    height: 100%;
 }
 
 
@@ -85,18 +81,8 @@ li {
 /**
  * Headings
  */
-#about-head {
-    line-height: 1;
-    font-family: "Karla", Helvetica, sans-serif;
-    text-align: center;
-    padding: 50px 25px 0px 25px;
-    font-weight: 700;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
-    font-family: "Karla", Helvetica, sans-serif;
-    font-weight: 700;
 }
 
 
@@ -113,7 +99,8 @@ a {
     }
 
     &:hover {
-        color: lighten($brand-color, 15%);
+        color: $text-color;
+        text-decoration: underline;
     }
 }
 
@@ -176,7 +163,6 @@ pre {
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
-    height: 100%;
 
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
@@ -219,14 +205,9 @@ pre {
     }
 }
 
-
-@include media-query($on-palm) {
-    #about-head {
-        font-size: 18px;
-        padding: 20px 10px 0px 10px;
-    }
-    body {
-        font-size: $small-font-size;
-    }
-    
+/**
+  * Other
+  */
+.closing-line {
+  text-align: center;
 }

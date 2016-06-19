@@ -7,13 +7,20 @@
 
 # Site settings
 title: Doria Keung
-email: doria.keung@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This is Doria Keung's website and blog.
-baseurl: "" # the subpath of your site, e.g. /blog
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: ""
+gems: [
+        jekyll-paginate,
+]
+paginate: 5
+
+# Contact information
+email: doria.keung@gmail.com
 twitter_username: doriaKeung
-github_username:  doriable
+github_username: doriable
+facebook_username: doria.keung
+linkedin_username: doriakeung
 
 # Build settings
 markdown: kramdown

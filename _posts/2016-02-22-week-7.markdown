@@ -3,12 +3,12 @@ layout: post
 title:  "Week 7: Projects Week 2"
 date:   2016-02-22 14:00:00 -0800
 comments: true
-categories: life-update Hackbright learning-code project
+categories: hackbright
 ---
 <!--Introduction-->
 This is my Week 7 (week 2 of projects) wrap-up, starting with daily scrum stand-ups:
 
-- **Monday**: Over the weekend I worked on route for searching and rendering results from Spotify Web API. Today, I am working to create a route for adding songs that have been returned from the search. No blockers. 
+- **Monday**: Over the weekend I worked on route for searching and rendering results from Spotify Web API. Today, I am working to create a route for adding songs that have been returned from the search. No blockers.
 - **Tuesday**: Yesterday, I put together the route for searching and adding songs. Today, I am working on rendering the playlist based on the songs I've added and setting up WebSockets for real-time playlist rendering. No blockers.
 - **Wednesday**: Yesterday, I set up the WebSocket and got new songs to add when the playlist is rendered. Today, I will work on ensuring that the proper playlist is rendered based on the jukebox a user belongs to and also for the current state of the playlist to render when a user connects to the proper jukebox. No blockers.
 - **Thursday**: Yesterday, I figured out how to sort users into groups of connections based on their jukebox, so when new songs are added, the jukebox is updated for only their users. I also ensured that the current version of the jukebox renders when a user joins a jukebox. Today, I'm adding the voting function to the jukeboxes. No blockers.

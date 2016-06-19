@@ -1,50 +1,178 @@
 /**
+ * Site header
+ */
+.site-header {
+    border-top: 5px solid $grey-color-dark;
+    border-bottom: 1px solid $grey-color-light;
+    min-height: 56px;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
+.site-title {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+
+    &,
+    &:visited {
+        color: $grey-color-dark;
+    }
+}
+
+.site-nav {
+    float: right;
+    line-height: 56px;
+
+    .menu-icon {
+        display: none;
+    }
+
+    .page-link {
+        color: $text-color;
+        line-height: $base-line-height;
+
+        // Gaps between nav items, but not on the last one
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
+    }
+
+    @include media-query($on-palm) {
+        position: absolute;
+        top: 9px;
+        right: $spacing-unit / 2;
+        background-color: $background-color;
+        border: 1px solid $grey-color-light;
+        border-radius: 5px;
+        text-align: right;
+
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg {
+                width: 18px;
+                height: 15px;
+
+                path {
+                    fill: $grey-color-dark;
+                }
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+
+            &:not(:last-child) {
+                margin-right: 0;
+            }
+            margin-left: 20px;
+        }
+    }
+}
+
+
+
+/**
  * Site footer
  */
 .site-footer {
-    width: 100%;
-    height: 10%;
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit / 2 0 0 0;
-    clear: top;
-    position: fixed;
-    z-index: 999;
-    background-color: #FFFFFF;
+    padding: $spacing-unit 0;
+}
+
+.footer-heading {
+    font-size: 18px;
+    margin-bottom: $spacing-unit / 2;
+}
+
+.contact-list,
+.social-media-list {
+    list-style: none;
+    margin-left: 0;
+}
+
+.footer-col-wrapper {
+    font-size: 15px;
+    color: $grey-color;
+    margin-left: -$spacing-unit / 2;
+    @extend %clearfix;
+}
+
+.footer-col {
+    float: left;
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
 }
 
 .footer-col-1 {
-    width: -webkit-calc(40% - (#{$spacing-unit} / 2));
-    width:         calc(40% - (#{$spacing-unit} / 2));
-    text-align: left;
-    padding: 0px 0px 5px 20px;
-    height: 10%;
-    display: inline-block;
-    font-size: 14px;
+    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    width:         calc(35% - (#{$spacing-unit} / 2));
 }
 
-
-#footer-name {
-    line-height: 2;
-    font-size: 10px;
+.footer-col-2 {
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(20% - (#{$spacing-unit} / 2));
 }
 
-#social-media-small {
-    display: none;
+.footer-col-3 {
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
 }
+
+@include media-query($on-laptop) {
+    .footer-col-1,
+    .footer-col-2 {
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
+    }
+
+    .footer-col-3 {
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+@include media-query($on-palm) {
+    .footer-col {
+        float: none;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
 
 
 /**
  * Page content
  */
 .page-content {
-    padding: 0;
-    height: 90%;
-    position: relative;
-    margin: 0px;
+    padding: $spacing-unit 0;
 }
 
 .page-heading {
-    font-size: 42px;
+    font-size: 20px;
 }
 
 .post-list {
@@ -61,65 +189,11 @@
     color: $grey-color;
 }
 
-#post-page{
-    padding: 0% 5% 0% 5%;
-}
-
 .post-link {
     display: block;
     font-size: 24px;
 }
 
-#about-sub {
-    padding: 0 1em 0 1em;
-    text-align: center;
-}
-
-.home {
-    padding: 5% 20% 20% 5%;
-}
-
-.left-sidebar {
-    width: 40%;
-    height: 90%;
-    position: fixed;
-    background-image: url("/images/new_wallpaper-01-02.png");
-    margin-top: 0px;
-    padding: 0px;
-    float: left;
-}
-
-#about {
-    margin: 15% auto;
-    padding: 1.5em;
-    background: white;
-    border-radius: 70%;
-    width: 70%;
-    display: block;
-}
-
-.right {
-    width: 60%;
-    height: 90%;
-    padding-bottom: 20%;
-    float: right;
-}
-
-#arrow-large {
-    font-size: 100px;
-    text-align: center;
-    line-height: -1;
-    margin: -30px 0px 0px 0px;
-}
-
-#arrow-small {
-    display: none;
-    text-align: center;
-}
-
-.disqus-comments {
-    margin: 0 10% 15% 5%;
-}
 
 
 /**
@@ -133,7 +207,6 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
-    padding: 5% 20% 0% 5%;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -142,7 +215,6 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
-    padding: 0 20% 10% 5%;
 
     h2 {
         font-size: 32px;
@@ -167,60 +239,4 @@
             font-size: 18px;
         }
     }
-}
-
-/**
- * Media Queries - Mobile
- */
-@include media-query($on-palm) {
-    .left-sidebar {
-        width: 100%;
-        height: 100%;
-        position: relative;
-        background-image: url("/images/new_wallpaper-01-02_small.png");
-    }
-    #arrow-large {
-        display: none;
-    }
-    #arrow-small {
-        display: block;
-        font-size: 75px;
-        text-align: center;
-        margin: -25px 0px 0px 0px;
-        font-weight: bold;
-    }
-    #ammy-cartoon{
-        width: 131px;
-        height: 110px;
-    }
-    #social-media-large {
-        display: none;
-    }
-    #social-media-small {
-        display: block;
-    }
-    #about {
-        padding: 3em;
-    }
-    .right {
-        width: 100%;
-        position: relative;
-        margin-bottom: 10em;
-    }
-    .post-meta {
-        font-size: $small-font-size;
-        color: $grey-color;
-    }
-    #post-page{
-        padding: 0px 25px 0px 30px;
-    }
-
-    .post-title {
-        font-size: 26px;
-        padding: 20px 25px 0px 30px;
-    }
-    .page-heading{
-        font-size: 26px;
-    }
-
 }

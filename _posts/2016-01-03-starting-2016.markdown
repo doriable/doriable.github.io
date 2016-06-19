@@ -3,7 +3,7 @@ layout: post
 title:  "Starting 2016"
 date:   2016-01-03 16:00:00 -0800
 comments: true
-categories: life-update Hackbright
+categories: update hackbright
 ---
 A quick introduction:
 
@@ -31,7 +31,7 @@ A good portion of you who are reading this blog (hi mom!) will likely be the sai
 
 <h3>Thoughts on Technology — 25%</h3>
 
-Since, ultimately my goal is to become a software engineer, I'll have one or two thoughts about the world of technology from time-to-time. I hope to cherrypick the ones I find most compelling and share them with you. Feel free to discuss them with me and provide your critiques, I'm here to learn as much as I can. 
+Since, ultimately my goal is to become a software engineer, I'll have one or two thoughts about the world of technology from time-to-time. I hope to cherrypick the ones I find most compelling and share them with you. Feel free to discuss them with me and provide your critiques, I'm here to learn as much as I can.
 
 <h3>Learning to Code — 25%</h3>
 
@@ -41,7 +41,7 @@ I'll be doing a lot of that here, so I'm definitely going to talk about it. I wa
 
 While there are already entire publications dedicated to this idea and this is not the primary highlight for this blog, as a member of this demographic, I will likely end up somehow sharing my quarter-life crisis, struggles with finding the "bliss" in my life, and other such "coming-of-age" highlights. I think that these are common themes that come up when reflecting, but I also understand there are already so many more credible explorations around these ideas and it may be a little tired for me to add to them. So I'll try to only throw my hat in the ring if I feel I have something worthwhile and of course, as always, feel free to critique.
 
-<h3>Food + Coffee — 4%</h3> 
+<h3>Food + Coffee — 4%</h3>
 
 Those who know me know I love to eat and drink coffee, so I will occassionally highlight some discoveries I make out here. If you have any suggestions for me, I'm all for trying new things, so hit me! Or better yet, come along if you happen to be in the Bay Area!
 
