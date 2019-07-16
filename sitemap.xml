@@ -1,95 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://doriable.github.io/about/</loc>
-    <lastmod>2019-07-15T20:14:43-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://doriable.github.io/</loc>
-    <lastmod>2019-07-15T20:14:43-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://doriable.github.io/posts/2016/03/hackbright-week-9-projects-week-4/</loc>
-    <lastmod>2016-03-08T00:20:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://doriable.github.io/posts/</loc>
-    <lastmod>2016-03-08T00:20:00-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://doriable.github.io/tags/</loc>
-    <lastmod>2016-03-08T00:20:00-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://doriable.github.io/tags/hackbright/</loc>
-    <lastmod>2016-03-08T00:20:00-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://doriable.github.io/posts/2016/02/hackbright-week-8-projects-week-3/</loc>
-    <lastmod>2016-02-23T23:00:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://doriable.github.io/posts/2016/02/hackbright-week-7-projects-week-2/</loc>
-    <lastmod>2016-02-22T02:14:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://doriable.github.io/posts/2016/02/hackbright-week-6-projects-week-1/</loc>
-    <lastmod>2016-02-14T14:00:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://doriable.github.io/posts/2016/02/hackbright-week-5/</loc>
-    <lastmod>2016-02-07T23:21:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://doriable.github.io/posts/2016/01/hackbright-week-4/</loc>
-    <lastmod>2016-01-30T01:21:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://doriable.github.io/posts/2016/01/hackbright-week-3/</loc>
-    <lastmod>2016-01-23T02:21:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://doriable.github.io/posts/2016/01/hackbright-week-2/</loc>
-    <lastmod>2016-01-17T10:00:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://doriable.github.io/posts/2016/01/hackbright-week-1/</loc>
-    <lastmod>2016-01-10T23:00:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://doriable.github.io/posts/2016/01/starting-2016/</loc>
-    <lastmod>2016-01-03T16:00:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://doriable.github.io/tags/update/</loc>
-    <lastmod>2016-01-03T16:00:00-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://doriable.github.io/index.html</loc>
-    <priority>0</priority>
-  </url>
-  
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>https://doriable.github.io/en/sitemap.xml</loc>
+		
+	   	<lastmod>2019-07-15T20:14:43-04:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://doriable.github.io/fr/sitemap.xml</loc>
+		
+	</sitemap>
+	
+</sitemapindex>
