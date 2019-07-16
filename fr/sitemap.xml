@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://doriable.github.io/fr/index.html</loc>
+    <loc>https://doriable.github.io/fr/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://doriable.github.io/index.html"
+                href="https://doriable.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://doriable.github.io/fr/index.html"
+                href="https://doriable.github.io/fr/categories/"
                 />
   </url>
   
