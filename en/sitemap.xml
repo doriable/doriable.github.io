@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -9,8 +9,7 @@
   
   <url>
     <loc>https://doriable.github.io/</loc>
-    <lastmod>2019-07-15T20:14:43-04:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2016-03-08T00:20:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -24,6 +23,11 @@
   </url>
   
   <url>
+    <loc>https://doriable.github.io/tags/hackbright/</loc>
+    <lastmod>2016-03-08T00:20:00-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://doriable.github.io/posts/2016/03/hackbright-week-9-projects-week-4/</loc>
     <lastmod>2016-03-08T00:20:00-08:00</lastmod>
   </url>
@@ -31,13 +35,11 @@
   <url>
     <loc>https://doriable.github.io/posts/</loc>
     <lastmod>2016-03-08T00:20:00-08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://doriable.github.io/tags/</loc>
     <lastmod>2016-03-08T00:20:00-08:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -48,12 +50,6 @@
                 hreflang="en"
                 href="https://doriable.github.io/tags/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://doriable.github.io/tags/hackbright/</loc>
-    <lastmod>2016-03-08T00:20:00-08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -104,12 +100,10 @@
   <url>
     <loc>https://doriable.github.io/tags/update/</loc>
     <lastmod>2016-01-03T16:00:00-08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://doriable.github.io/categories/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -119,6 +113,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://doriable.github.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://doriable.github.io/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://doriable.github.io/fr/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://doriable.github.io/series/"
                 />
   </url>
   

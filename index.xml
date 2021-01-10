@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Doria Keung</title>
@@ -6,18 +6,14 @@
     <description>Recent content on Doria Keung</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 15 Jul 2019 20:14:43 -0400</lastBuildDate>
-    
-	<atom:link href="https://doriable.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 08 Mar 2016 00:20:00 -0800</lastBuildDate><atom:link href="https://doriable.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://doriable.github.io/about/</link>
       <pubDate>Mon, 15 Jul 2019 20:14:43 -0400</pubDate>
       
       <guid>https://doriable.github.io/about/</guid>
-      <description>Hello, my name is doria.</description>
+      <description>Hello, my name is Doria and I am a software developer working in infrastructure. I initially started my blog to share my experiences at a coding bootcamp back in 2016.</description>
     </item>
     
     <item>
@@ -63,7 +59,7 @@
       <pubDate>Sun, 07 Feb 2016 23:21:00 -0800</pubDate>
       
       <guid>https://doriable.github.io/posts/2016/02/hackbright-week-5/</guid>
-      <description>Happy Lunar New Year! &amp;#128053; Even though I was unable to celebrate it with my family in-person, I had the chance to Skype with them and wish them a happy new year.
+      <description>Happy Lunar New Year! 🐵 Even though I was unable to celebrate it with my family in-person, I had the chance to Skype with them and wish them a happy new year.
 It&amp;rsquo;s the end of week 5! Apologies on the late post this week, it&amp;rsquo;s been extremely hectic. We are about to start the second half of Hackbright: computer science topics and our personal projects, and I am both excited and anxious.</description>
     </item>
     
@@ -83,8 +79,8 @@ This week was super exciting, although the contrast of SQL (which is awesome!) v
       <pubDate>Sat, 23 Jan 2016 02:21:00 -0800</pubDate>
       
       <guid>https://doriable.github.io/posts/2016/01/hackbright-week-3/</guid>
-      <description>Week 3 down and wow it was a crazy week! I&amp;rsquo;m fairly certain my brain is just liquid sloshing around in my skull right now and I&amp;rsquo;m afraid to go to sleep in case it starts pouring out of my ears. This week, we covered an incredibly broad range of topics:
- HTML and CSS (Geocities and Angelfire flashbacks — Hamster Dance, this is all that&amp;rsquo;s left of you&amp;hellip;) How the web works (still tubes, wires, and magic — but also requests and responses!</description>
+      <description>Week 3 down and wowit was a crazy week! I&amp;rsquo;m fairly certain my brain is just liquid sloshing around in my skull right now and I&amp;rsquo;m afraid to go to sleep in case it starts pouring out of my ears. This week, we covered an incredibly broad range of topics:
+ HTML and CSS (Geocities and Angelfire flashbacks — Hamster Dance, thisis all that&amp;rsquo;s left of you&amp;hellip;) How the web works (still tubes, wires, and magic — but also requests and responses!</description>
     </item>
     
     <item>
@@ -105,7 +101,7 @@ We covered a lot of ground this week at Hackbright, including the following:
       
       <guid>https://doriable.github.io/posts/2016/01/hackbright-week-1/</guid>
       <description>Week 1 of Hackbright just wrapped up!
-Given that my first post was dedicated to my wonderful and supportive family and friends, this post is dedicated to the brilliant and fabulous Hack13right ladies I shared my first week with! It&amp;rsquo;s so interesting to see all the different backgrounds and unique personalities and it makes me more excited about the program by the day. We covered a lot of material in our first week, as well as some *house*keeping stuff:</description>
+Given that my first post was dedicated to my wonderful and supportive family and friends, this post is dedicated to the brilliant and fabulous Hack13right ladies I shared my first week with! It&amp;rsquo;s so interesting to see all the different backgrounds and unique personalities and it makes me more excited about the program by the day. We covered a lot of material in our first week, as well as some housekeeping stuff:</description>
     </item>
     
   </channel>
